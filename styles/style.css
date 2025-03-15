@@ -49,6 +49,15 @@ header .container {
     align-items: center;
 }
 
+.logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.logo-text {
+    letter-spacing: -1.5px;
+}
+
 nav ul {
     display: flex;
     gap: 2rem;
