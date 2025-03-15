@@ -66,3 +66,30 @@ nav ul {
 nav a {
     font-weight: 500;
 }
+
+.hero {
+    padding: 6rem 0;
+    background-color: var(--background-color);
+}
+
+.hero .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+}
+
+.content h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.content p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.h-buttons {
+    display: flex;
+    gap: 1rem;
+}
