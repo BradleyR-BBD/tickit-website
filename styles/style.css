@@ -255,3 +255,35 @@ nav a:hover {
     font-weight: 700;
     margin: 0 auto 1rem;
 }
+
+.testimonials {
+    background-color: var(--background-color);
+}
+
+.testimonial-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.testimonial-card {
+    background-color: var(--background-alt);
+    padding: 2rem;
+    border-radius: var(--radius);
+    box-shadow: 0 4px 6px var(--shadow-color);
+}
+
+.testimonial-card p {
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
+.testimonial-author {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-author span {
+    color: var(--text-light);
+    font-size: 0.9rem;
+}
