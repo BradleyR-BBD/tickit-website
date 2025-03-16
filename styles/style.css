@@ -2,7 +2,6 @@
     --primary-color: #4f46e5;
     --primary-dark: #4338ca;
     --primary-light: #818cf8;
-    --secondary-color: #10b981;
     --text-color: #1f2937;
     --text-light: #6b7280;
     --background-color: #ffffff;
@@ -326,10 +325,6 @@ footer {
     .h-image {
         display: none;
     }
-
-    .footer-grid {
-        grid-template-columns: 1fr 1fr;
-    }
 }
 
 @media (max-width: 768px) {
@@ -349,20 +344,6 @@ footer {
 @media (max-width: 576px) {
     nav {
         display: none;
-    }
-
-    .footer-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .footer-bottom {
-        flex-direction: column;
-        gap: 1rem;
-        text-align: center;
-    }
-
-    .social-links {
-        justify-content: center;
     }
 }
 
