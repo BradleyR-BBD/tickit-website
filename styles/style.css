@@ -365,3 +365,61 @@ footer {
         justify-content: center;
     }
 }
+
+.waiting-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--background-alt);
+    text-align: center;
+}
+
+.waiting-list .container {
+    max-width: 500px;
+    background-color: var(--background-color);
+    padding: 2rem;
+    border-radius: var(--radius);
+    box-shadow: 0 4px 10px var(--shadow-color);
+}
+
+.waiting-list h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.waiting-list p {
+    color: var(--text-light);
+    margin-bottom: 1.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+label {
+    text-align: left;
+    font-weight: 600;
+    color: var(--text-color);
+}
+
+input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius);
+    font-size: 1rem;
+    outline: none;
+    transition: var(--transition);
+}
+
+input:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 5px var(--primary-light);
+}
+
+button {
+    cursor: pointer;
+}
